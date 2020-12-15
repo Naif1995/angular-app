@@ -1,0 +1,11 @@
+{
+  "targets": {
+    "angular-app-test-1d052": {
+      "hosting": {
+        "hello-world": [
+          "angular-app-test-1d052"
+        ]
+      }
+    }
+  }
+}
