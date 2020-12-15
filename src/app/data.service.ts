@@ -12,7 +12,7 @@ import { Product } from './product';
 })
 export class DataService {
 
-  private REST_API_SERVER = "http://localhost:3000/products";
+  private REST_API_SERVER = "http://nkhnain-27144-eval-prod.apigee.net/products";
   public first: string = "";
   public prev: string = "";
   public next: string = "";
@@ -51,7 +51,7 @@ export class DataService {
   }
 
   parseLinkHeader(header) {
-    if (header.length == 0) {
+    if (header == null || header.length == 0) {
       return ;
     }
 
