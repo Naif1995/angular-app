@@ -12,7 +12,7 @@ import { Product } from './product';
 })
 export class DataService {
 
-  private REST_API_SERVER = "http://nkhnain-27144-eval-prod.apigee.net/products";
+  private REST_API_SERVER = "https://nkhnain-27144-eval-prod.apigee.net/test-1";
   public first: string = "";
   public prev: string = "";
   public next: string = "";
